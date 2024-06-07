@@ -4,8 +4,16 @@
   "description": "Function call graph generator for python.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clear_jest": "jest --clearCache",
+    "test": "node test/index.test.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tree-sitter": "^0.21.1",
+    "tree-sitter-python": "^0.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

@@ -1,5 +1,5 @@
-function generateStaticCallGraph(directoryPath) {
-    console.log("first version of static call graph generator");
+function getNeighbours(directoryPath, filePath, functionName) {
+    
 }
 
-module.exports = { generateStaticCallGraph };
+module.exports = { getNeighbours };
