@@ -27,7 +27,7 @@ const fileName = './path/to/file/where/function/is/defined';
 const functionName = 'functionName';
 
 // Generate the call graph context
-const callGraphContext = functionContextBuilderPython(codeDirectory, fileName, functionName);
+const callGraphContext = getNeighbours(codeDirectory, fileName, functionName);
 
 // Output the result
 console.log(callGraphContext);
