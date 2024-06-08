@@ -7,8 +7,16 @@
     "clear_jest": "jest --clearCache",
     "test": "node test/index.test.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeAnt-AI/static-call-graph.git"
+  },
+  "author": "CodeAnt AI",
+  "license": "https://github.com/CodeAnt-AI/static-call-graph/blob/main/LICENSE",
+  "bugs": {
+    "url": "https://github.com/CodeAnt-AI/static-call-graph/issues"
+  },
+  "homepage": "https://github.com/CodeAnt-AI/static-call-graph#readme",
   "dependencies": {
     "tree-sitter": "^0.21.1",
     "tree-sitter-python": "^0.21.0"
