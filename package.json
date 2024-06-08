@@ -1,6 +1,6 @@
 {
   "name": "static-call-graph",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Function call graph generator for python.",
   "main": "index.js",
   "scripts": {

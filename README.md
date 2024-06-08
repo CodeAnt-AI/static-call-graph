@@ -12,7 +12,7 @@ This package addresses this gap by providing a robust library capable of identif
 Install the package via npm:
 
 ```bash
-npm install static-function-call-graph-generator
+npm install static-call-graph
 ```
 
 ## Example usage
