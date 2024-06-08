@@ -1,6 +1,6 @@
 {
   "name": "static-call-graph",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Function call graph generator for python.",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,12 @@
   },
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "keywords": [
+    "call graph",
+    "python",
+    "tree-sitter",
+    "ast",
+    "static analysis"
+  ]
 }
